@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+}
+
+body {
+  background: rgb(248,113,29);
+  background: linear-gradient(180deg, rgba(248,113,29,1) 7%, rgba(252,225,209,1) 38%, rgba(249,214,193,1) 68%, rgba(248,113,29,1) 100%);
+}
