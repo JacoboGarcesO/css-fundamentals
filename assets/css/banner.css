@@ -5,3 +5,16 @@
   width: 100%;
   margin-top: 120px;
 }
+
+@media (width <= 480px) {
+  .banner {
+    height: auto;
+    width: 250px;
+    margin: 40px;
+    margin-top: 120px;
+  }
+
+  .banner__container {
+    text-align: center;
+  }
+}

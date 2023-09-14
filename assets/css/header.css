@@ -4,7 +4,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  box-shadow: 0px 6px 78px -17px rgba(0,0,0,0.75);
+  box-shadow: 0px 6px 78px -17px rgba(0, 0, 0, 0.75);
 }
 
 .logo {
@@ -38,6 +38,7 @@
 .enlace {
   text-decoration: none;
   color: #fff;
+  font-size: 1rem;
 }
 
 .brand h1 {
@@ -49,4 +50,46 @@
   display: flex;
   align-items: center;
   gap: 15px;
+}
+
+.brand__icon {
+  color: #fff;
+  font-size: 2rem;
+  display: none !important;
+}
+
+.brand__content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (width <=480px) {
+  .menu {
+    flex-direction: column;
+    align-items: start;
+    padding: 0;
+  }
+
+  .menu ul {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #cc4e00cf;
+    padding-block: 20px;
+  }
+
+  .brand {
+    padding: 20px;
+    justify-content: space-between;
+    width: calc(100% - 40px);
+  }
+
+  .brand__icon {
+    display: block !important;
+  }
+
+  .menu--hidden ul {
+    display: none;
+  }
 }

@@ -16,3 +16,23 @@
   font-size: 18px;
   line-height: 27px;
 }
+
+@media (width <= 480px) {
+  .information {
+    display: block;
+    text-align: center;
+  }
+
+  .information__description {
+    padding: 20px;
+    line-height: 20px;
+    background-color: #cc4e00cf;
+    border-radius: 15px;
+    color: #FFF;
+    margin-inline: 20px;
+  }
+
+  .information__image {
+    width: 300px;
+  }
+}

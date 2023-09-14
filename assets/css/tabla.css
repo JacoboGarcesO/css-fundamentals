@@ -20,4 +20,11 @@
   background-color: #FFF;
   color: #f8711d;
   padding: 10px;
-} 
+}
+
+@media (width <= 480px) {
+  .wrapper {
+    overflow-x: scroll;
+    margin: 20px;
+  }
+}
